@@ -1,5 +1,7 @@
 package classes.spices
 
+import classes.declarations.SpiceContainer
+
 fun main() {
     val curry = Curry("Curry Name", "Mild")
 
@@ -7,9 +9,21 @@ fun main() {
     curry.grind()
 
     println("${curry.name} ${curry.spiciness}")
+
+    println("Using data classes")
+
+    val spiceCabinet = listOf(
+        SpiceContainer(Curry("Yellow Curry", "mild")),
+        SpiceContainer(Curry("Red Curry", "medium")),
+        SpiceContainer(Curry("Green Curry", "spicy"))
+        )
+
+    for (container in spiceCabinet) {
+        println("${container.label}, color: ${container.spice.color}")
+    }
 }
 
-abstract class Spice(
+sealed class Spice(
     val name: String,
     val spiciness: String = "mild",
     color: SpiceColor) : SpiceColor by color {
@@ -35,9 +49,16 @@ interface Grinder {
 }
 
 interface SpiceColor {
-    val color: String
+    val color: Color
 }
 
 object YellowSpiceColor : SpiceColor {
-    override val color: String = "Yellow"
+    override val color: Color = Color.YELLOW
+}
+
+enum class Color(val rgb: Int) {
+    YELLOW(0xFFFF00),
+    RED(0xFF0000),
+    GREEN(0x00FF00),
+    BLUE(0x0000FF);
 }
