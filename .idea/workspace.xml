@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="23fca167-41f1-4313-b2fe-9b3eb5a016d1" name="Changes" comment="Add sample Book class to use Pairs and Triples">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="23fca167-41f1-4313-b2fe-9b3eb5a016d1" name="Changes" comment="Add collections sample">
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/beyond/Book.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/beyond/Book.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -128,7 +127,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683961698051</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Add collections sample">
+      <created>1683964185410</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1683964185410</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -147,6 +153,7 @@
     <MESSAGE value="Add inheritance and interfaces" />
     <MESSAGE value="Add Enums + Refactoring" />
     <MESSAGE value="Add sample Book class to use Pairs and Triples" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add sample Book class to use Pairs and Triples" />
+    <MESSAGE value="Add collections sample" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add collections sample" />
   </component>
 </project>
