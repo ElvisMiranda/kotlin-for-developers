@@ -5,7 +5,7 @@ data class Result(val title: String, val author: String)
 
 const val MAX_BOOKS = 10
 
-class Book (val title: String, val author: String, val year: Int) {
+class Book (val title: String, val author: String, val year: Int, var pages: Int) {
 
     companion object {
         const val BASE_URL = "http://sample/"
@@ -19,8 +19,11 @@ class Book (val title: String, val author: String, val year: Int) {
     fun printUrl() = println("$BASE_URL$title.html")
 }
 
+fun Book.weight() = pages * 1.5
+fun Book.tornPages(torn: Int) = if (pages >= torn) pages -= torn else pages = 0
+
 fun main() {
-    val book = Book("Book 1", "Developer", 2018)
+    val book = Book("Book 1", "Developer", 2018, 150)
 
     val (title, author, year) = book.getDetails()
 
@@ -37,4 +40,11 @@ fun main() {
     println(book.canBorrow(10))
     println(book.printUrl())
 
+    val puppy = Puppy()
+    val puppyBook = Book("Oliver Twist", "Charles Dickens", 1837, 540)
+
+    puppy.playWithBook(puppyBook)
+    puppy.playWithBook(puppyBook)
+    puppy.playWithBook(puppyBook)
+    puppy.playWithBook(puppyBook)
 }
