@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="23fca167-41f1-4313-b2fe-9b3eb5a016d1" name="Changes" comment="Add constants">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/beyond/Puppy.kt" afterDir="false" />
+    <list default="true" id="23fca167-41f1-4313-b2fe-9b3eb5a016d1" name="Changes" comment="Add extension functions">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/beyond/generics/buildings/Buildings.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/beyond/Book.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/beyond/Book.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,6 +18,42 @@
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
     </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="kotlin-for-developers" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="kotlin-for-developers" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="kotlin-for-developers" type="f1a62948:ProjectNode" />
+                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="kotlin-for-developers" type="f1a62948:ProjectNode" />
+                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
+                <item name="compileClasspath" type="62daadca:ExternalSystemViewDefaultContributor$DependencyScopeExternalSystemNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -46,7 +82,7 @@
     "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle"
   }
 }]]></component>
-  <component name="RunManager" selected="Kotlin.BookKt (1)">
+  <component name="RunManager" selected="Kotlin.BuildingsKt">
     <configuration name="BookKt (1)" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="beyond.BookKt" />
       <module name="kotlin-for-developers.main" />
@@ -61,8 +97,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MainKt" />
+    <configuration name="BuildingsKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="beyond.generics.buildings.BuildingsKt" />
       <module name="kotlin-for-developers.main" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -84,11 +120,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.BuildingsKt" />
         <item itemvalue="Kotlin.BookKt (1)" />
         <item itemvalue="Kotlin.SpiceKt" />
         <item itemvalue="Kotlin.BookKt" />
         <item itemvalue="Kotlin.SimpleSpiceKt" />
-        <item itemvalue="Kotlin.MainKt" />
       </list>
     </recent_temporary>
   </component>
@@ -143,7 +179,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683964800614</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Add extension functions">
+      <created>1683965760224</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1683965760224</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -164,6 +207,7 @@
     <MESSAGE value="Add sample Book class to use Pairs and Triples" />
     <MESSAGE value="Add collections sample" />
     <MESSAGE value="Add constants" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add constants" />
+    <MESSAGE value="Add extension functions" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add extension functions" />
   </component>
 </project>
